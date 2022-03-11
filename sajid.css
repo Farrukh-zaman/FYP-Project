@@ -1,0 +1,488 @@
+:root {
+    --head-size: 35px;
+    --head-weight: bold;
+    --para-text: 17px;
+    --para-weight: 500;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(208, 211, 214);
+}
+
+.navbar {
+    /* background-color: rgb(192, 196, 201) !important; */
+    box-shadow: 2px 4px 4px gray;
+}
+
+.btn-primary {
+    padding: 5px 26px;
+    margin: 0 10px;
+    border-radius: 6px;
+}
+
+.login {
+    background: transparent;
+    border: 2px solid blue;
+    color: blue;
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: transparent;
+    color: blue;
+    border: 2px solid rgb(39, 61, 105);
+    color: rgb(39, 61, 105);
+}
+
+.started {
+    font-weight: bold;
+    padding: 6px 26px;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 520px;
+    bottom: 4px;
+}
+
+
+/* main-section */
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 60px 0;
+}
+
+.main-section .heading {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-section .text-1 {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    color: rgb(78, 76, 76);
+}
+
+.main-section .big-btn {
+    border: 2px solid black;
+    padding: 15px 55px;
+    margin: 20px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(106, 144, 161);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+
+.big-btn:hover {
+    opacity: 0.9;
+}
+
+.main-section .rating>i {
+    color: rgb(76, 114, 72);
+}
+
+.main-section .rat-text {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.head-2 {
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main-section .head2-text,
+.headtext-para {
+    margin: 30px 0;
+    font-size: var(--para-text);
+    font-weight: var(--para-weight);
+}
+
+.main-section .headtext-2 {
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+    text-align: center;
+}
+
+.main-section .headtext-para {
+    text-align: center;
+}
+
+.main-section .auto-para {
+    font-size: var(--para-text);
+    font-weight: var(--para-weight);
+}
+
+.main-section .head-human {
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+    margin-top: 40px;
+}
+
+.main-section .human-para {
+    font-size: var(--para-text);
+    font-weight: var(--para-weight);
+}
+
+.main-section .how-head {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+}
+
+.main-section .how-para {
+    font-size: var(--para-text);
+    font-weight: var(--para-weight);
+}
+
+.main-section .sign-head {
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main-section .sign-text {
+    font-size: var(--para-text);
+    font-weight: var(--para-weight);
+    text-align: left;
+}
+
+.modal-dialog {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 36px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    align-items: center;
+}
+
+#Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body #Form input {
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid grey;
+    margin: 10px 0;
+}
+
+.modal-body #Form .signup-btn {
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.modal-body #Form .check {
+    border: 2px solid red;
+    position: relative;
+    right: 145px;
+}
+
+.modal-body #Form .span {
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    font-weight: bold;
+}
+
+.main-section .ask {
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#accordionFlushExample {
+    width: 800px;
+    border-radius: 7px !important;
+}
+
+#item {
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+}
+
+#item .collapsed {
+    font-weight: bold;
+}
+
+.main-section .lang {
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.main-section #select {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.main-section #select option {
+    font-weight: bold;
+    border: none;
+}
+
+#Foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+#Foot .social {
+    display: flex;
+    width: 500px;
+    padding: 0 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Foot .private {
+    display: flex;
+    margin: 0 40px;
+}
+
+#Foot .private p {
+    padding: 0 12px;
+    font-weight: bold;
+}
+
+.social i {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(57, 58, 57);
+}
+
+.social i:hover {
+    color: blue;
+}
+
+.social .follow {
+    font-size: var(--head-size);
+    font-weight: var(--head-weight);
+    margin-top: 6px;
+}
+
+.bi-x {
+    font-size: 30px;
+    position: relative;
+    bottom: 7.4em;
+    right: 1.2em;
+}
+
+.bi-x:hover {
+    cursor: pointer;
+    color: rgb(34, 133, 214);
+}
+
+.txtFile {
+    margin-bottom: 10px;
+}
+
+#file {
+    position: relative;
+    top: 12px;
+    margin-bottom: 10px;
+}
+
+#txt {
+    display: inline-block;
+    position: relative;
+    right: 5.5em;
+    bottom: 10px;
+}
+
+#textarea {
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 7px;
+}
+
+.main-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Container {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    background-color: lightslategray;
+    height: 100vh;
+}
+
+#downloadBtn {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.selectLanguage {
+    position: relative;
+    bottom: 2.8em;
+    left: 5em;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.selectLanguage:hover {
+    cursor: pointer;
+}
+
+form * {
+    display: block;
+    margin: 10px;
+}
+
+#NAV {
+    margin-bottom: 50px;
+}
+
+#NAV-BAR {
+    position: relative;
+    left: 44em;
+}
+
+.btns {
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 28px;
+}
+
+.check {
+    border: 2px solid red;
+    position: relative;
+    top: 10px;
+}
+
+/* MEDAI QUERIES */
+
+@media all and (max-width:991px) {
+    .navbar .nav-item {
+        position: relative;
+        right: 31em;
+    }
+    .navbar #signUp {
+        position: relative;
+        right: 15px;
+        margin: 5px 0;
+    }
+    .modal .modal-content {
+        position: relative;
+        right: 2.5em;
+    }
+}
+
+@media all and (max-width: 899px) {
+    #Foot .social .follow {
+        font-size: 21px;
+        margin: 8px 0;
+    }
+    #Foot .private>p {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width:824px) {
+    .main-section .accordion {
+        padding: 0 60px;
+    }
+    #Foot .social {
+        font-size: 21px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .main-section {
+        padding: 0 10px;
+    }
+    .main-section .accordion {
+        padding: 0 7em;
+    }
+    #Foot .social .follow {
+        font-size: 16px;
+        padding: 0 8px;
+    }
+}
+
+@media all and (max-width:613px) {
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-section .head-human,
+    .how-head {
+        text-align: center;
+    }
+    .main-section .heading {
+        font-size: 35px;
+    }
+    .main-section .accordion {
+        padding: 0 11em;
+    }
+    #Foot .social {
+        margin: 0 39px;
+    }
+    #Foot .private {
+        position: relative;
+        right: 5em;
+    }
+    #Foot .private p {
+        font-size: 12px;
+    }
+    #Foot .social>.follow {
+        font-size: 15px;
+    }
+    #Foot .private {
+        position: relative;
+        right: 8.5em;
+    }
+    #Foot .private p {
+        font-size: 10px;
+    }
+    #Foot .social {
+        position: relative;
+        right: 1.5em
+    }
+    #Foot .social,
+    .private {
+        padding: 0 10px;
+    }
+}
